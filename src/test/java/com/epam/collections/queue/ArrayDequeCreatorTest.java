@@ -34,6 +34,7 @@ public class ArrayDequeCreatorTest {
                               Queue<Integer> secondQueue,
                               List<Integer> expectedArrayDequeValues) {
 
+
         ArrayDequeCreator creator = new ArrayDequeCreator();
         ArrayDeque<Integer> actualArrayDeque = creator.createArrayDeque(firstQueue, secondQueue);
         assertEquals(expectedArrayDequeValues.size(), actualArrayDeque.size());
